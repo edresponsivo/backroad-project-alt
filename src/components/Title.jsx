@@ -1,6 +1,7 @@
-const Title = ({title}) => {
-    // console.log(title);
-    const { prefix, word } = title;
+import React from "react";
+const Title = ({ title }) => {
+  // console.log(title);
+  const { prefix, word } = title;
   return (
     <div className="section-title">
       <h2>

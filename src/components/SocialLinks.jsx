@@ -1,3 +1,4 @@
+import React from "react";
 import { socialLinks } from "../data";
 import SocialLink from "./SocialLink";
 

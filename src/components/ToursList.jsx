@@ -1,3 +1,4 @@
+import React from "react";
 import Title from "./Title";
 import Tour from "./Tour";
 import { tours } from "../tours-data";

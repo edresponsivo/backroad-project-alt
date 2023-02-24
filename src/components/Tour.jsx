@@ -1,6 +1,6 @@
+import React from "react";
 const Tour = (props) => {
-  const { image, title, date, description, country, duration, price } =
-    props;
+  const { image, title, date, description, country, duration, price } = props;
   return (
     <article className="tour-card">
       <div className="tour-img-container">
