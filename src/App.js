@@ -1,3 +1,5 @@
+import React from "react";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -7,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <React.Fragment>
       <Navbar />
 
       <Hero />
@@ -19,7 +21,7 @@ const App = () => {
       <ToursList />
 
       <Footer />
-    </>
+    </React.Fragment>
   );
 };
 export default App;

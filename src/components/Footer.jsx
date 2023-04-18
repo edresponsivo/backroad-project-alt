@@ -1,3 +1,4 @@
+import React from "react";
 import PageLinks from "./PageLinks";
 import SocialLinks from "./SocialLinks";
 

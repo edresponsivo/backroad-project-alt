@@ -1,5 +1,6 @@
+import React from "react";
 const Service = (props) => {
-    const { icon, title, description } = props;
+  const { icon, title, description } = props;
   return (
     <article className="service">
       <span className="service-icon">

@@ -1,3 +1,4 @@
+import React from "react";
 import Title from "../components/Title";
 import Service from "../components/Service";
 import { services } from "../data";
